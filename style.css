@@ -1,3 +1,10 @@
-.first-section{
+.first-section,
+.second-section,
+.third-section,
+.fourth-section{
     border: solid #000000;
+}
+
+img{
+    border: solid blue;
 }
