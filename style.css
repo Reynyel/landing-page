@@ -8,10 +8,7 @@
     font-family: 'Roboto';
 }
 body{
-
     margin: 0;
-            
-
 }
 .first-section{
     background-color: #1f2937;
@@ -27,6 +24,8 @@ body{
     flex-wrap: wrap;
     font-weight: 900;
     align-items: center;
+    margin-left: 32px;
+    margin-right: 32px;    
 }
 
 a{
@@ -52,13 +51,17 @@ ul, .secondary-text{
     color: #f9faf8;
 }
 
+
 .first-container{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 52px;
+    
+    
 }
+
 
 .main-title,
 .secondary-text{
