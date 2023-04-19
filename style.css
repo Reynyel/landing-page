@@ -1,4 +1,4 @@
-.third-section,
+
 .fourth-section{
     border: solid #000000;
 }
@@ -68,7 +68,8 @@ ul, .secondary-text{
 
 .main-title,
 .secondary-text,
-.secondary-text-2{
+.secondary-text-2,
+.author{
     padding-bottom: 8px;
 }
 .main-title{
@@ -99,6 +100,7 @@ ul, .secondary-text{
 .second-section{
     display: flex;
     flex-direction: column;
+    
     height: 80vh;
 }
 
@@ -117,6 +119,7 @@ ul, .secondary-text{
 .second-container{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 64px;
 }
 
@@ -133,4 +136,41 @@ ul, .secondary-text{
     margin: 0;
     padding: 0;
     color: grey;
+}
+
+.third-section{
+    background-color: #e2e7eb;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.third-container{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.author-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.author{
+    margin-right: 20px;
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 900;
 }
